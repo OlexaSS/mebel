@@ -12039,6 +12039,10 @@ header {
   color: #f68038;
 }
 
+.categories-search__checkbox .checkbox__input:checked + .checkbox__text:after {
+  display: none;
+}
+
 .categories-search__checkbox .checkbox__text {
   color: #999;
 }
